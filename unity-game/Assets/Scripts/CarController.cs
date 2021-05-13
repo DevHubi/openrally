@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,7 +10,8 @@ public class CarController : MonoBehaviour
 
     private float horizontalInput;
     private float verticalInput;
-    private float steerAngle;
+    private float currentSteerAngle;
+    private float currentbreakForce;
     private bool isBreaking;
 
     [SerializeField] private float motorForce;
@@ -38,18 +40,15 @@ public class CarController : MonoBehaviour
     {
         horizontalInput = Input.GetAxis(HORIZONTAL);
         verticalInput = Input.GetAxis(VERTICAL);
-        isBreaking = Input.GetKey(KeyCode.space);
+        isBreaking = Input.GetKey(KeyCode.Space);
     }
 
     private void HandleMotor()
     {
         frontLeftWheelCollider.motorTorque = verticalInput * motorForce;
         frontRightWheelCollider.motorTorque = verticalInput * motorForce;
-        breakForce = isBreaking ? breakForce : 0f;
-        if (isBreaking)
-        {
-            ApplyBreaking();
-        }
+        currentbreakForce = isBreaking ? breakForce : 0f;
+        ApplyBreaking();
     }
 
     private void ApplyBreaking()
@@ -79,7 +78,7 @@ public class CarController : MonoBehaviour
     {
         Vector3 pos;
         Quaternion rot;
-        wheelCollider.getWorldPos(out pos, out rot);
+        wheelCollider.GetWorldPose(out pos, out rot);
         wheelTransform.rotation = rot;
         wheelTransform.position = pos;
     }

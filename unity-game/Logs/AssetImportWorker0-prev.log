@@ -15,11 +15,11 @@ C:/Users/Miika/Documents/SOURCECODE/unity-game/unity-game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50159
+60557
 Successfully changed project path to: C:/Users/Miika/Documents/SOURCECODE/unity-game/unity-game
 C:/Users/Miika/Documents/SOURCECODE/unity-game/unity-game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 43.74 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 28.58 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,159 +35,136 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56408
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002057 seconds.
+Registered in 0.002009 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 33.03 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 27.67 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.133 seconds
+- Completed reload, in  1.067 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000828 seconds.
+Registered in 0.000699 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 31.00 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 27.70 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.152 seconds
+- Completed reload, in  1.058 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1318 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 107.7 MB.
-System memory in use after: 107.5 MB.
+Unloading 1319 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.8 MB.
+System memory in use after: 107.6 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 1790.
-Total: 2.436700 ms (FindLiveObjects: 0.245600 ms CreateObjectMapping: 0.224100 ms MarkObjects: 1.750300 ms  DeleteObjects: 0.215300 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Yellow.prefab
-  artifactKey: Guid(400ae1c92d3d7164c98601f4394b0931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Yellow.prefab using Guid(400ae1c92d3d7164c98601f4394b0931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e98c21f8fff27eaf4a471d8e98bd77') in 0.534127 seconds
-  Import took 0.536366 seconds .
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 1791.
+Total: 2.434300 ms (FindLiveObjects: 0.499100 ms CreateObjectMapping: 0.145500 ms MarkObjects: 1.585800 ms  DeleteObjects: 0.203100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Carbon.prefab
-  artifactKey: Guid(0f7265637d2c58d49a57253b2879a946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Carbon.prefab using Guid(0f7265637d2c58d49a57253b2879a946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1866570ee8975448f31039e3bfd03a00') in 0.016394 seconds
-  Import took 0.018633 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Blue.prefab
-  artifactKey: Guid(6dfc700a1205ddf49b448178a2b00e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Blue.prefab using Guid(6dfc700a1205ddf49b448178a2b00e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aba0d75796182118f0910b5363e69ac') in 0.016905 seconds
-  Import took 0.019246 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Gray.prefab
-  artifactKey: Guid(f8c4c684ae669b44b92b76f083b3d84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Gray.prefab using Guid(f8c4c684ae669b44b92b76f083b3d84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e39d09dd539c7238a7c1fbdf886775') in 0.014722 seconds
-  Import took 0.017020 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Red.prefab
-  artifactKey: Guid(b471b549ed0cf0b42b15b41a16e07b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Red.prefab using Guid(b471b549ed0cf0b42b15b41a16e07b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18367cfc46cc714596e77cf3746fc40f') in 0.015800 seconds
-  Import took 0.018193 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 721.742845 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(4f7cbb74f1526d744a35ba2032834fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(4f7cbb74f1526d744a35ba2032834fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5035d49dc91004e612a4b1cad9b24ee3') in 0.006169 seconds
-  Import took 0.008704 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.324835 seconds.
-  path: Assets/Scripts/CarControl.cs
+  path: Assets/Scripts/CarController.cs
   artifactKey: Guid(c950a883615edf3469af9fc96262041b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CarControl.cs using Guid(c950a883615edf3469af9fc96262041b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5bcdc569898d388420629d7b35d0885') in 0.082648 seconds
-  Import took 0.084881 seconds .
+Start importing Assets/Scripts/CarController.cs using Guid(c950a883615edf3469af9fc96262041b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deae1202ee98cf16b291297a589fb652') in 0.022836 seconds
+  Import took 0.025015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.481532 seconds.
+  path: Assets/Scripts/CarController.cs
+  artifactKey: Guid(c950a883615edf3469af9fc96262041b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CarController.cs using Guid(c950a883615edf3469af9fc96262041b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae76c1c0a2f80010b6c4692cbcb18bee') in 0.002301 seconds
+  Import took 0.004425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.937103 seconds.
+  path: Assets/Scripts/CarController.cs
+  artifactKey: Guid(c950a883615edf3469af9fc96262041b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CarController.cs using Guid(c950a883615edf3469af9fc96262041b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574eaeae47fbb782cad525c8e6cf8897') in 0.003762 seconds
+  Import took 0.005767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.605971 seconds.
+  path: Assets/Scripts/CarController.cs
+  artifactKey: Guid(c950a883615edf3469af9fc96262041b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CarController.cs using Guid(c950a883615edf3469af9fc96262041b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9efd94f3b25c760c616ada497af8c1a') in 0.004597 seconds
+  Import took 0.007936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.556460 seconds.
+  path: Assets/Scripts/CarController.cs
+  artifactKey: Guid(c950a883615edf3469af9fc96262041b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CarController.cs using Guid(c950a883615edf3469af9fc96262041b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d551a422c6a62bc2db46f1e5dc5e410') in 0.003697 seconds
+  Import took 0.006433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.235624 seconds.
+  path: Assets/Scripts/CarController.cs
+  artifactKey: Guid(c950a883615edf3469af9fc96262041b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CarController.cs using Guid(c950a883615edf3469af9fc96262041b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd750ad4d54f0f8cc56aa6b24332b20') in 0.003560 seconds
+  Import took 0.005684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.298959 seconds.
+  path: Assets/Scripts/CarController.cs
+  artifactKey: Guid(c950a883615edf3469af9fc96262041b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CarController.cs using Guid(c950a883615edf3469af9fc96262041b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d9fdbf79f23cfdef6aa02ec9181b63') in 0.003807 seconds
+  Import took 0.007241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.178910 seconds.
+  path: Assets/Scripts/CarController.cs
+  artifactKey: Guid(c950a883615edf3469af9fc96262041b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CarController.cs using Guid(c950a883615edf3469af9fc96262041b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178d3ec335c30ff37843900d80e7d408') in 0.006351 seconds
+  Import took 0.010307 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000732 seconds.
+Registered in 0.000964 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.007 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1270 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 106.5 MB.
-System memory in use after: 106.4 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1801.
-Total: 2.389900 ms (FindLiveObjects: 0.151500 ms CreateObjectMapping: 0.055700 ms MarkObjects: 1.975000 ms  DeleteObjects: 0.205900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.779854 seconds.
-  path: Assets/Scripts/CarController.cs
-  artifactKey: Guid(c950a883615edf3469af9fc96262041b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CarController.cs using Guid(c950a883615edf3469af9fc96262041b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7732e88884aec4eaead53381dcbcb041') in 0.008645 seconds
-  Import took 0.011165 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005872 seconds.
-  path: Assets/Scripts/CarController.cs
-  artifactKey: Guid(c950a883615edf3469af9fc96262041b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CarController.cs using Guid(c950a883615edf3469af9fc96262041b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7732e88884aec4eaead53381dcbcb041') in 0.001943 seconds
-  Import took 0.004667 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000783 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.016 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.950 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1270 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 106.6 MB.
-System memory in use after: 106.4 MB.
+System memory in use before: 103.5 MB.
+System memory in use after: 103.3 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1804.
-Total: 1.780700 ms (FindLiveObjects: 0.139900 ms CreateObjectMapping: 0.046100 ms MarkObjects: 1.423200 ms  DeleteObjects: 0.169800 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1794.
+Total: 2.817300 ms (FindLiveObjects: 0.178600 ms CreateObjectMapping: 0.045700 ms MarkObjects: 2.397800 ms  DeleteObjects: 0.193100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.535863 seconds.
+  path: Assets/Scripts/CarController.cs
+  artifactKey: Guid(c950a883615edf3469af9fc96262041b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CarController.cs using Guid(c950a883615edf3469af9fc96262041b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48bc703d6f2206f36cb662f18efd6ea8') in 0.004119 seconds
+  Import took 0.006142 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
