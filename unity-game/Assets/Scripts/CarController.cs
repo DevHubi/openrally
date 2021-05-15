@@ -14,6 +14,8 @@ public class CarController : MonoBehaviour
     private float currentbreakForce;
     private bool isBreaking;
 
+    private float mass = -0.9f;
+
     [SerializeField] private float motorForce;
     [SerializeField] private float breakForce;
     [SerializeField] private float maxSteerAngle;
@@ -26,7 +28,12 @@ public class CarController : MonoBehaviour
     [SerializeField] private Transform frontLeftWheelTransform;
     [SerializeField] private Transform frontRightWheelTransform;
     [SerializeField] private Transform rearLeftWheelTransform;
-    [SerializeField] private Transform rearRightWheelTransform; 
+    [SerializeField] private Transform rearRightWheelTransform;
+
+    private void start()
+    {
+        GetComponent<Rigidbody>().centerOfMass = new Vector3(0f, mass, 0f);
+    }
 
     private void FixedUpdate()
     {
@@ -48,7 +55,10 @@ public class CarController : MonoBehaviour
         frontLeftWheelCollider.motorTorque = verticalInput * motorForce;
         frontRightWheelCollider.motorTorque = verticalInput * motorForce;
         currentbreakForce = isBreaking ? breakForce : 0f;
-        ApplyBreaking();
+        if (!isBreaking)
+        {
+            frontRightWheelCollider.brakeTorque = frontLeftWheelCollider.brakeTorque = rearRightWheelCollider.brakeTorque = rearLeftWheelCollider.brakeTorque = 0f;
+        }
     }
 
     private void ApplyBreaking()
