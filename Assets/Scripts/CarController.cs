@@ -14,7 +14,7 @@ public class CarController : MonoBehaviour
     private float currentbreakForce;
     private bool isBreaking;
 
-    private float mass = -0.9f;
+    private float mass = 1500f;
 
     [SerializeField] private float motorForce;
     [SerializeField] private float breakForce;
@@ -32,7 +32,7 @@ public class CarController : MonoBehaviour
 
     private void start()
     {
-        GetComponent<Rigidbody>().centerOfMass = new Vector3(0f, mass, 0f);
+        GetComponent<Rigidbody>().centerOfMass = new Vector3(mass, mass, mass);
     }
 
     private void FixedUpdate()
