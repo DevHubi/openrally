@@ -13,16 +13,11 @@ public class DiscordController : MonoBehaviour
         var activityManager = discord.GetActivityManager();
         var activity = new Discord.Activity
         {
-            State = "Still testing",
-            Details = "Bigger test"
+            State = "Exploring map"
         };
-
         activityManager.UpdateActivity(activity, (res) =>
         {
-            if (res == Discord.Result.Ok)
-            {
-                Debug.LogError("WORKING");
-            }
+            
         });
     }
 
